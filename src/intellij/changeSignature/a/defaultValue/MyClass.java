@@ -2,6 +2,8 @@ package intellij.changeSignature.a.defaultValue;
 
 /**
  Changing a method signature
+ add parameter double price
+ using default value 0.0
 
  1. In the editor, place the cursor within the name of the method whose signature you want to change.
  2. Do one of the following:
@@ -13,6 +15,11 @@ package intellij.changeSignature.a.defaultValue;
 
  // When performing the refactoring, 0.0 was specified as
  // the default parameter value.
+
+ how keys:
+ Ctrl+F6 above method
+ Alt+Insert to add parameter
+
  */
 public class MyClass {
 
